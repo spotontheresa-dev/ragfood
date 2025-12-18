@@ -8,7 +8,7 @@ CHROMA_DIR = "chroma_db"
 COLLECTION_NAME = "foods"
 JSON_FILE = "foods.json"
 EMBED_MODEL = "mxbai-embed-large"
-LLM_MODEL = "llama3.2"
+LLM_MODEL = "llama3.2:1b"
 
 # Load data
 with open(JSON_FILE, "r", encoding="utf-8") as f:
