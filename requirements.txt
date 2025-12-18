@@ -1,0 +1,17 @@
+# RAG-Food Dependencies
+# Migrated to cloud-native stack: Upstash Vector + Groq LLM
+
+# Vector Database (Upstash - cloud-hosted)
+upstash-vector>=0.8.0
+
+# LLM API (Groq Cloud)
+groq>=0.37.0
+
+# Environment Variables
+python-dotenv>=1.0.0
+
+# HTTP Requests (for fallback/testing)
+requests>=2.31.0
+
+# Optional: Testing
+pytest>=7.0.0
